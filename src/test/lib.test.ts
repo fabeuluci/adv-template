@@ -1,5 +1,6 @@
 import * as assert from "assert";
 import { TemplateCompiler } from "../Compiler";
+import "q2-test";
 
 it("Template should return a valid html", () => {
     const expected = `<div>abc&lt;i&gt;&lt;&#x2F;i&gt;&amp;zxc
